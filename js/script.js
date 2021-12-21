@@ -18,7 +18,7 @@ console.log('JS OK');
 */
 
 // #1 - #2
-let userKm = parseInt(prompt('Quanti chilometri devi percorrere?').trim() * 0.21);
+let userKm = parseInt(prompt('Quanti chilometri devi percorrere?').trim());
 let userAge = parseInt(prompt('Quanti anni hai?').trim());
 
 console.log(`I chilometri da percorrere sono ${userKm}km`);
