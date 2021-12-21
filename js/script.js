@@ -13,4 +13,10 @@ console.log('JS OK');
 3 -
 */
 
-// 
+// #1 - #2
+const userKm = prompt('Quanti chilometri devi percorrere?');
+const userAge = prompt('Quanti anni hai?');
+
+console.log(`I chilometri da percorrere sono: ${userKm}`);
+
+console.log(`L'utente ha: ${userAge} anni`);
