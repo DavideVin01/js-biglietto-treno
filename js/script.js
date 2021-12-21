@@ -44,4 +44,6 @@ if (0 < userAge && userAge < 18) {
     prezzoScontato = .40;
     costoTotale = costoTotale - (costoTotale * prezzoScontato);
     console.log(`Il prezzo del biglietto per gli over 65 è di ${costoTotale}€`)
+} else {
+    console.log("Il prezzo del biglietto non riceve variazioni per questa fascia d'età");
 }
