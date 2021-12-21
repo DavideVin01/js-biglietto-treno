@@ -18,9 +18,12 @@ console.log('JS OK');
 */
 
 // #1 - #2
-const userKm = prompt('Quanti chilometri devi percorrere?');
-const userAge = prompt('Quanti anni hai?');
+const userKm = parseInt(prompt('Quanti chilometri devi percorrere?').trim());
+const userAge = parseInt(prompt('Quanti anni hai?').trim());
 
 console.log(`I chilometri da percorrere sono: ${userKm}`);
 console.log(`L'utente ha: ${userAge} anni`);
 
+// #3
+
+// const prezzoTotale = 0
