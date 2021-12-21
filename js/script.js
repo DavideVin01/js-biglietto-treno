@@ -10,7 +10,11 @@ console.log('JS OK');
 /*
 1 - Chiedere all'utente il numero di chilometri da percorrere
 2 - Chiedere l'età del passeggero.
-3 -
+3 - Calcolare prezzo totale del viaggio in base a:
+    3.1 - Prezzo del biglietto definito in base ai km (0.21 € al km)
+    3.2 - Sconto del 20% per i minorenni
+    3.3 - Sconto del 40% per gli over 65
+4 - Inserire prezzo finale con massimo due decimali (centesimi)
 */
 
 // #1 - #2
@@ -18,5 +22,5 @@ const userKm = prompt('Quanti chilometri devi percorrere?');
 const userAge = prompt('Quanti anni hai?');
 
 console.log(`I chilometri da percorrere sono: ${userKm}`);
-
 console.log(`L'utente ha: ${userAge} anni`);
+
