@@ -18,7 +18,7 @@ console.log('JS OK');
 */
 
 // #1 - #2
-let userKm = parseInt(prompt('Quanti chilometri devi percorrere?').trim());
+let userKm = parseInt(prompt('Quanti chilometri devi percorrere?').trim() * 0.21);
 let userAge = parseInt(prompt('Quanti anni hai?').trim());
 
 console.log(`I chilometri da percorrere sono ${userKm}km`);
@@ -26,12 +26,8 @@ console.log(`L'utente ha ${userAge} anni`);
 
 
 // #3
-
 let costoTotale = userKm + userAge;
 console.log(`Il prezzo del biglietto senza sconti è di ${costoTotale}€`);
-
-//#3.1
-// TODO 0.21 € al km
 
 // #3.2 - #3.3
 let prezzoScontato = 0;
