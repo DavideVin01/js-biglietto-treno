@@ -26,6 +26,10 @@ console.log(`L'utente ha ${userAge} anni`);
 
 
 // #3
+
+// #3.1
+userKm *= 0.21;
+
 let costoTotale = userKm + userAge;
 console.log(`Il prezzo del biglietto senza sconti è di ${costoTotale}€`);
 
