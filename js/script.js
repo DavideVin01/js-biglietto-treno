@@ -28,9 +28,7 @@ console.log(`L'utente ha ${userAge} anni`);
 // #3 - #3.1
 if (!isNaN(userKm) && !isNaN(userAge)) {
 
-    userKm *= 0.21;
-
-    let costoTotale = userKm + userAge;
+    let costoTotale = userKm * 0.21;
 
     // #3.2 - #3.3
     let prezzoScontato = 0;
@@ -39,7 +37,7 @@ if (!isNaN(userKm) && !isNaN(userAge)) {
         prezzoScontato = .20;
         costoTotale = (costoTotale - (costoTotale * prezzoScontato)).toFixed(2);
         console.log(`Il prezzo del biglietto per i minorenni è di ${costoTotale}€`);
-    } else if (userAge >= 65) {
+    } else if (userAge >= 65 && userAge < 110) {
         prezzoScontato = .40;
         costoTotale = (costoTotale - (costoTotale * prezzoScontato)).toFixed(2);
         console.log(`Il prezzo del biglietto per gli over 65 è di ${costoTotale}€`)
